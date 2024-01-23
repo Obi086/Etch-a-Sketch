@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridSideBar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 250px;
+    justify-content: space-around;
+    padding: 10px;
+    background: lightsalmon;
+}
+
+.gridContainer {
+    border: 1px solid black;
+    width: 420px;
+    display: grid;
+}
+
+.btnOn {
+    background: black;
+    color: burlywood;
+}
+
+.CellGrid {
+    border: 1px solid gray;
+}
+
+.cell:hover {
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}
